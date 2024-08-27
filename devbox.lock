@@ -1,0 +1,181 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "imagemagick@latest": {
+      "last_modified": "2024-08-21T11:30:02Z",
+      "resolved": "github:NixOS/nixpkgs/f132a77a82530de0d10216f09857090d324fee05#imagemagick",
+      "source": "devbox-search",
+      "version": "7.1.1-36",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hgrqrf21bi3xgga7a0s1avlbhfpjvmrx-imagemagick-7.1.1-36",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/i7pkr508xbfz9vww99kzmdz4dalwwp8g-imagemagick-7.1.1-36-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/gigs76ic9frmnc0vfddn05fbph3ad2rh-imagemagick-7.1.1-36-doc"
+            }
+          ],
+          "store_path": "/nix/store/hgrqrf21bi3xgga7a0s1avlbhfpjvmrx-imagemagick-7.1.1-36"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kkhx2ysnnhpznzxzfsaj3qhjjbyxb7xg-imagemagick-7.1.1-36",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/nl7wvfa2g5vyrj23a3af252izxyq418d-imagemagick-7.1.1-36-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/fvgkmyi2ymm63m0n45p6fx520zvg6zq3-imagemagick-7.1.1-36-doc"
+            }
+          ],
+          "store_path": "/nix/store/kkhx2ysnnhpznzxzfsaj3qhjjbyxb7xg-imagemagick-7.1.1-36"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2w4bd98fv94x4mk50mp0n4g1acprcmld-imagemagick-7.1.1-36",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/6xng66xvgqqg32c5yy50sjk3flglxdxs-imagemagick-7.1.1-36-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/l4dgiy2qik1chahrh92mp1ic9c51w6zr-imagemagick-7.1.1-36-doc"
+            }
+          ],
+          "store_path": "/nix/store/2w4bd98fv94x4mk50mp0n4g1acprcmld-imagemagick-7.1.1-36"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/d60nmab62d6zxrwsad7ikqajdnsl4zpr-imagemagick-7.1.1-36",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/hia3sw6xl3alp4agb3h0ljkbij2fskm3-imagemagick-7.1.1-36-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/jwmczzgv44kdag3njn1simvm58asp1pi-imagemagick-7.1.1-36-doc"
+            }
+          ],
+          "store_path": "/nix/store/d60nmab62d6zxrwsad7ikqajdnsl4zpr-imagemagick-7.1.1-36"
+        }
+      }
+    },
+    "mint@latest": {
+      "last_modified": "2024-08-14T11:41:26Z",
+      "resolved": "github:NixOS/nixpkgs/0cb2fd7c59fed0cd82ef858cbcbdb552b9a33465#mint",
+      "source": "devbox-search",
+      "version": "0.19.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gm2zfz710c3rj41vcfyb8al2v1jhq5p3-mint-0.19.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gm2zfz710c3rj41vcfyb8al2v1jhq5p3-mint-0.19.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qxwnd2baya7c3z8vyfnl6476ndjhljpk-mint-0.19.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/qxwnd2baya7c3z8vyfnl6476ndjhljpk-mint-0.19.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ya7clr1xzwshccpcqcqx6yqjw2zmykyw-mint-0.19.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ya7clr1xzwshccpcqcqx6yqjw2zmykyw-mint-0.19.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/iqb9pbaq0bhb7vnphg1aw7fbw2b8ii9d-mint-0.19.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/iqb9pbaq0bhb7vnphg1aw7fbw2b8ii9d-mint-0.19.0"
+        }
+      }
+    },
+    "static-web-server@latest": {
+      "last_modified": "2024-08-14T11:41:26Z",
+      "resolved": "github:NixOS/nixpkgs/0cb2fd7c59fed0cd82ef858cbcbdb552b9a33465#static-web-server",
+      "source": "devbox-search",
+      "version": "2.32.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gml98q8bgjxjpqxq8k3i10z66cf6vcmd-static-web-server-2.32.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gml98q8bgjxjpqxq8k3i10z66cf6vcmd-static-web-server-2.32.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sdnm6c3r9hwjnhdbqcxd4f562dffpz7p-static-web-server-2.32.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/sdnm6c3r9hwjnhdbqcxd4f562dffpz7p-static-web-server-2.32.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/adv0vjwyszsylqx1q8q7a2qrk52v9005-static-web-server-2.32.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/adv0vjwyszsylqx1q8q7a2qrk52v9005-static-web-server-2.32.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/i7l6h6rhirn6k5mgypwjp8ryirrsf95y-static-web-server-2.32.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/i7l6h6rhirn6k5mgypwjp8ryirrsf95y-static-web-server-2.32.1"
+        }
+      }
+    }
+  }
+}
