@@ -28,7 +28,7 @@ component Main {
       <Info mainPath="source/Main.mint"/>
 
       <Link href="https://www.mint-lang.com/">
-        "Learn AdMint"
+        "Learn AdMint Woy"
       </Link>
     </div>
   }
