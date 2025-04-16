@@ -44,6 +44,7 @@
           "DEVENV_DOTFILE"
         ];
         init = pkgs.writeScriptBin "env-init" /* bash */ ''
+          #!${lib.getExe pkgs.bash}
           ${lib.pipe shell.env [
             (lib.attrNames)
             (map (x:
