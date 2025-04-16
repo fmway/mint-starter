@@ -1,14 +1,13 @@
 {
-  "name": "mint-starter",
+  "name": "stater",
   "application": {
+    "icon": "assets/favicon.png",
     "head": "assets/head.html",
-    "title": "mint-starter",
-    "icon": "assets/favicon.png"
-  },
-  "external": {
-    "stylesheets": [
-      "assets/style.css"
-    ]
+    "title": "stater",
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, user-scalable=no",
+      "charset": "utf-8"
+    }
   },
   "source-directories": [
     "source"
