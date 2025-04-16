@@ -1,16 +1,16 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
   "packages": [
-    "mint@latest",
-    "imagemagick@latest",
-    "static-web-server@latest"
+    "path:.#default"
   ],
   "shell": {
-    "init_hook": [],
+    "init_hook": [
+      "source $(which env-init)"
+    ],
     "scripts":   {
-      "build": "mint build",
-      "install": "mint install",
-      "start": "static-web-server --root ./dist --port 8080"
+      "build": "build",
+      "install": "instal",
+      "start": "start"
     }
   }
 }
