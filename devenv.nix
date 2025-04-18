@@ -3,7 +3,6 @@
 
   packages = with pkgs.unstable; [
     mint
-    imagemagick
     static-web-server
   ];
 
