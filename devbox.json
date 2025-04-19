@@ -5,7 +5,7 @@
   ],
   "shell": {
     "init_hook": [
-      ". env-init"
+      "env-init"
     ],
     "scripts":   {
       "build": "build",
